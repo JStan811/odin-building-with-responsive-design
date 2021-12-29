@@ -1,0 +1,22 @@
+Notes
+  - breakpoints: 1024px width, 767px width
+    - modifications needed at each width:
+      - 1024px:
+        - header/navbar
+        - yellow conference cta
+        - main logo / heading
+        - featured article grid
+        - popular articles today
+        - latest stories
+        - work with us company list
+        - footer
+      - 767px:
+        - featured article grid
+        - popular articles today
+        - latest stories
+        - watch what we made for you
+        - work with us
+
+
+To-do
+  - update element types and class names. Try to use semantic html. Maybe check the source code to see how to do it
