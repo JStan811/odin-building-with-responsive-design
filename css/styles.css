@@ -1,0 +1,96 @@
+/* Global */
+
+* {
+  font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Header */
+
+header {
+  height: 47px;
+  background-color: mistyrose;
+}
+
+/* conference cta */
+
+.conference-cta {
+  height: 44px;
+  background-color: goldenrod;
+}
+
+/* main logo heading */
+
+.main-logo-heading {
+  height: 225px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: honeydew;
+}
+
+/* grid with 5 articles */
+
+.featured-article-grid {
+  height: 633px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: lavender;
+}
+
+/* popular articles today */
+
+.popular-articles {
+  height: 370px;
+  background-color: gray;
+}
+
+/* latest articles */
+
+.latest-articles {
+  height: 800px;
+  width: 70%;
+  margin: 0 auto;
+  background-color: hotpink;
+}
+
+/* explore our channels */
+
+.explore-our-channels {
+  height: 500px;
+  background-color: indianred;
+}
+
+/* newsletter call to action */
+
+.newsletter-cta {
+  height: 370px;
+  background-color: lemonchiffon;
+}
+
+/* watch what we made for you */
+
+.watch-our-vids {
+  height: 800px;
+  width: 70%;
+  margin: 0 auto;
+  background-color: lightgreen;
+}
+
+/* work with us */
+
+.work-with-us {
+  height: 600px;
+  width: 70%;
+  margin: 0 auto;
+  background-color: cyan;
+}
+
+/* footer */
+
+footer {
+  height: 500px;
+  background-color: black;
+  color: white;
+}
