@@ -1,17 +1,84 @@
 /* Global */
 
 * {
-  font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif;
+  font-family: 'Ropa Sans', sans-serif;
+  letter-spacing: 1.5px;
   font-size: 20px;
   line-height: 1.5;
   text-align: center;
+}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a {
+  text-decoration: none;
 }
 
 /* Header */
 
 header {
   height: 47px;
-  background-color: mistyrose;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 15px;
+  background-color: #F7F8F8;
+}
+
+header .tnw-logo {
+  width: 70px;
+}
+
+header .email-icon {
+  width: 22px;
+}
+
+header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo-link {
+  margin-right: auto;
+  align-self: stretch;
+}
+
+header nav {
+  align-self: stretch;
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 700px;
+}
+
+header nav ul li{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  color: #505666;
+}
+
+header nav ul li a{
+  font-size: 15px;
+}
+
+header nav ul li:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.header-email-link {
+  margin-left: auto;
 }
 
 /* conference cta */

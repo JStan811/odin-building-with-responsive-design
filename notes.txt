@@ -17,6 +17,12 @@ Notes
         - watch what we made for you
         - work with us
 
+Project Plan
+  - Create each component (the header, each div, then the footer) at my viewport size - >1024px
+    - ONE AT A TIME :) Rome wasn't built in a day
+  - Make changes for second viewport, >767px
+  - Make changes for third viewport, <=767px
+
 
 To-do
   - update element types and class names. Try to use semantic html. Maybe check the source code to see how to do it
