@@ -21,7 +21,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 20px;
+  padding-left: 25px;
   padding-right: 15px;
   background-color: #F7F8F8;
 }
@@ -85,7 +85,14 @@ header nav ul li:hover {
 
 .conference-cta {
   height: 44px;
-  background-color: goldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 25px;
+  font-size: 14px;
+  letter-spacing: normal;
+  background-color: #fd3;
+  color: black;
 }
 
 /* main logo heading */

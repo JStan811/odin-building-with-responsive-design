@@ -26,3 +26,4 @@ Project Plan
 
 To-do
   - update element types and class names. Try to use semantic html. Maybe check the source code to see how to do it
+  - where is the top yellow section getting that shadow/gradient from?
