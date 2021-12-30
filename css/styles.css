@@ -265,7 +265,7 @@ header nav ul li:hover,
 
 .popular-articles {
   height: 335px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -308,9 +308,115 @@ header nav ul li:hover,
 
 .latest-articles {
   height: 800px;
-  width: 70%;
+  width: 64%;
   margin: 0 auto;
-  background-color: hotpink;
+}
+
+.latest-articles h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.latest-articles-grid {
+  height: 550px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 32px;
+  row-gap: 37px;
+}
+
+.latest-article-1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.latest-article-2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.latest-article-3 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.latest-article-4 {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+.latest-article-5 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.latest-article-6 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.latest-article-7 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.latest-article-8 {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+
+.latest-articles-grid img {
+  width: 100%;
+}
+
+.latest-articles-grid a {
+  color: #11eff7;
+}
+
+.latest-articles-grid a:hover {
+  color: black;
+}
+
+.latest-articles-grid article h4 {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.latest-articles-grid article h3 {
+  font-size: 17px;
+  line-height: 1.4;
+  margin: 0;
+  color: black;
+}
+
+.latest-articles-grid article h3:hover {
+  text-decoration: underline;
+  text-decoration-color: #CC0099;
+}
+
+.pink-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 140px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #b30086;
+  border-radius: 50px;
+  background-color: #CC0099;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pink-button:hover {
+  color: black;
 }
 
 /* explore our channels */

@@ -29,3 +29,4 @@ To-do
   - where is the top yellow section getting that shadow/gradient from?
   - make GET TICKETS button in featured articles grid clickable
   - add actual links from the site
+  - add zoom hover effect on featured articles
