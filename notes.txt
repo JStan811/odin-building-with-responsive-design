@@ -30,3 +30,6 @@ To-do
   - make GET TICKETS button in featured articles grid clickable
   - add actual links from the site
   - add zoom hover effect on featured articles
+  - add animation on Latest Stories ALL NEWS button
+  - fill in img alt texts
+  - update fonts

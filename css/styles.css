@@ -307,7 +307,7 @@ header nav ul li:hover,
 /* latest articles */
 
 .latest-articles {
-  height: 800px;
+  height: 875px;
   width: 64%;
   margin: 0 auto;
 }
@@ -403,7 +403,7 @@ header nav ul li:hover,
   justify-content: center;
   align-items: center;
   height: 45px;
-  width: 140px;
+  width: 130px;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -422,8 +422,80 @@ header nav ul li:hover,
 /* explore our channels */
 
 .explore-our-channels {
-  height: 500px;
-  background-color: indianred;
+  height: 590px;
+  background-color: #F7F8F8;
+  padding-top: 110px;
+}
+
+.explore-content {
+  width: 1540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.explore-content h2 {
+  margin: 0;
+  font-size: 33px;
+  line-height: normal;
+  font-weight: bold;
+}
+
+.explore-flexbox {
+  height: 232px;
+  margin-top: 70px;
+  display: flex;
+  gap: 18px;
+}
+
+.explore-flexbox a {
+  flex-basis: 20%;
+  color: white;
+}
+
+.explore-flexbox a article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 70px;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.explore-flexbox a img{
+  width: 120px;
+}
+
+.explore-flex-1 {
+  background-image: url('../img/explore-channel-1.webp');
+  background-size: cover;
+}
+
+.explore-flex-2 {
+  background-image: url('../img/explore-channel-2.jpeg');
+  background-size: cover;
+}
+
+.explore-flex-3 {
+  background-image: url('../img/explore-channel-3.jpeg');
+  background-size: cover;
+}
+
+.explore-flex-4 {
+  background-image: url('../img/explore-channel-4.jpeg');
+  background-size: cover;
+}
+
+.explore-flex-5 {
+  background-image: url('../img/explore-channel-5.webp');
+  background-size: cover;
+}
+
+.explore-flexbox h3 {
+  font-size: 16px;
 }
 
 /* newsletter call to action */
