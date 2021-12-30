@@ -36,6 +36,11 @@ header .tnw-logo {
 
 header .email-icon {
   width: 22px;
+  opacity: 0.5;
+}
+
+header .email-icon:hover {
+  opacity: 1;
 }
 
 header a {
