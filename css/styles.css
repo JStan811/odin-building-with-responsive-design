@@ -150,6 +150,8 @@ header nav ul li:hover,
 .featured-article-grid article {
   position: relative;
   display: flex;
+  height: 100%;
+  width: 100%;
 }
 
 .grid-article-1 {
