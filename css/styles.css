@@ -108,7 +108,9 @@ header nav ul li:hover,
 .main-logo-heading {
   height: 230px;
   width: 80%;
-  margin: 0 auto;
+  margin-top: 93px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   align-items: center;
   position: relative;
@@ -135,10 +137,59 @@ header nav ul li:hover,
 .featured-article-grid {
   height: 633px;
   width: 80%;
-  margin: 0 auto;
-  background-color: lavender;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 250px 1fr 250px;
+  gap: 8px;
 }
 
+.grid-article-1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  background-image: url("../img/featured-article-1-alien.jpeg");
+  background-size: cover;
+  color: white;
+}
+
+.grid-article-1 img {
+  width: 100%;
+}
+
+.grid-article-2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background-image: url("../img/featured-article-2-china.jpeg");
+  background-size: cover;
+  color: white;
+}
+
+.grid-article-3 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  background-image: url("../img/featured-article-3-chip.jpeg");
+  background-size: cover;
+  color: white;
+}
+
+.grid-article-4 {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  background-image: url("../img/featured-article-4-conference.jpeg");
+  background-size: cover;
+  color: white;
+}
+
+.grid-article-5 {
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+  background-image: url("../img/featured-article-5-elon.jpeg");
+  background-size: cover;
+  color: white;
+}
 /* popular articles today */
 
 .popular-articles {
@@ -193,4 +244,13 @@ footer {
   height: 500px;
   background-color: black;
   color: white;
+}
+
+/* misc */
+
+.divfix {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 3000;
 }
