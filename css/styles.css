@@ -506,8 +506,115 @@ header nav ul li:hover,
 /* newsletter call to action */
 
 .newsletter-cta {
-  height: 370px;
-  background-color: lemonchiffon;
+  height: 355px;
+  padding-top: 50px;
+  background-color: black;
+  background-image: url('../img/newsletter-bg.png');
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+}
+
+.newsletter-cta-content {
+  width: 38%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter-cta h2 {
+  font-size: 45px;
+  margin: 0;
+}
+
+.newsletter-cta p {
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 22px;
+}
+
+.newsletter-cta a {
+  font-size: 17px;
+  font-weight: bold;
+  color: #11eff7;
+}
+
+.newsletter-cta a:hover {
+  color: white;
+}
+
+.newsletter-cta form {
+  width: 100%;
+}
+
+.newsletter-text-field {
+  height: 50px;
+  padding: 0;
+  padding-left: 45px;
+  width: 615px;
+  border: none;
+  vertical-align: bottom;
+  border-radius: 4px 0 0 4px;
+  background-image: url('../img/email-icon.png');
+  background-position: 2%;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  font-size: 17px;
+  color: #505666;
+}
+
+.newsletter-text-field:focus {
+  outline: none;
+}
+
+.newsletter-submit-btn {
+  height: 50px;
+  width: 106px;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  background-color: #CC0099;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: bottom;
+  border-radius: 0 4px 4px 0;
+  cursor:pointer;
+}
+
+.newsletter-submit-btn:hover {
+  background-color: #11eff7;
+}
+
+.nav-social {
+  width: 300px;
+  height: 35px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.nav-social ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-social img {
+  -webkit-filter: invert(1);
+   filter: invert(1);
+  width: 26px;
+  opacity: .5;
+}
+
+.nav-social img:hover {
+  opacity: 1;
 }
 
 /* watch what we made for you */
