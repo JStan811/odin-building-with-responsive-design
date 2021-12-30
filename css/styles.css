@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #F7F8F8;
+  background-color: white;
 }
 
 a {
@@ -262,8 +262,44 @@ header nav ul li:hover,
 /* popular articles today */
 
 .popular-articles {
-  height: 370px;
-  background-color: gray;
+  height: 335px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #F7F8F8;
+}
+
+.popular-articles h2 {
+  font-size: 23px;
+  color: #A7AAB2;
+}
+
+.popular-articles ol {
+  display: flex;
+  gap: 80px;
+}
+
+.popular-articles a {
+  color: black;
+}
+
+.popular-articles a:hover {
+  text-decoration: underline;
+  text-decoration-color: #CC0099;
+}
+
+.popular-articles ol li::marker{
+  color: #CC0099;
+}
+
+.popular-articles ol li h3{
+  font-size: 17px;
+  width: 220px;
+  margin: 0;
+  line-height: normal;
 }
 
 /* latest articles */
