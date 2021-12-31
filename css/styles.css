@@ -30,11 +30,11 @@ header {
 }
 
 header .tnw-logo {
-  width: 70px;
+  width: 4.375rem;
 }
 
 header .email-icon {
-  width: 22px;
+  width: 1.375rem;
   opacity: 0.5;
 }
 
@@ -63,7 +63,6 @@ header nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  width: 700px;
 }
 
 header nav ul li{
@@ -122,7 +121,7 @@ header nav ul li:hover,
 }
 
 .main-logo-heading img {
-  width: 225px;
+  width: 14.063rem;
   margin-right: 230px;
 }
 
@@ -155,7 +154,6 @@ header nav ul li:hover,
   position: relative;
   display: flex;
   height: 100%;
-  width: 100%;
 }
 
 .grid-article-1 {
@@ -252,7 +250,7 @@ header nav ul li:hover,
 .grid-article-4 button {
   border-radius: 25px;
   height: 50px;
-  width: 140px;
+  width: 8.75rem;
   margin-top: 18px;
   background-color: transparent;
   font-size: 0.875rem;
@@ -286,6 +284,7 @@ header nav ul li:hover,
 .popular-articles ol {
   display: flex;
   gap: 80px;
+  width: 78%;
 }
 
 .popular-articles a {
@@ -303,7 +302,6 @@ header nav ul li:hover,
 
 .popular-articles ol li h3{
   font-size: 1.063rem;
-  width: 220px;
   margin: 0;
   line-height: normal;
 }
@@ -372,10 +370,6 @@ header nav ul li:hover,
   grid-row: 2 / 3;
 }
 
-.latest-articles-grid img {
-  width: 100%;
-}
-
 .latest-articles-grid a {
   color: #11eff7;
 }
@@ -407,7 +401,7 @@ header nav ul li:hover,
   justify-content: center;
   align-items: center;
   height: 45px;
-  width: 130px;
+  width: 8.125rem;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -432,7 +426,7 @@ header nav ul li:hover,
 }
 
 .explore-content {
-  width: 1540px;
+  width: 80.2083333333%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -470,7 +464,7 @@ header nav ul li:hover,
 }
 
 .explore-flexbox a img{
-  width: 120px;
+  width: 6.25rem;
 }
 
 .explore-flex-1 {
@@ -544,14 +538,14 @@ header nav ul li:hover,
 }
 
 .newsletter-cta form {
-  width: 100%;
+  display: flex;
 }
 
 .newsletter-text-field {
   height: 50px;
+  width: 100%;
   padding: 0;
   padding-left: 45px;
-  width: 615px;
   border: none;
   vertical-align: bottom;
   border-radius: 4px 0 0 4px;
@@ -569,7 +563,7 @@ header nav ul li:hover,
 
 .newsletter-submit-btn {
   height: 50px;
-  width: 106px;
+  width: 6.625rem;
   padding: 0;
   border-radius: 0;
   border: none;
@@ -587,7 +581,7 @@ header nav ul li:hover,
 }
 
 .nav-social {
-  width: 300px;
+  width: 18.75rem;
   height: 35px;
   margin-top: 40px;
   margin-left: auto;
@@ -607,7 +601,7 @@ header nav ul li:hover,
 .nav-social img {
   -webkit-filter: invert(1);
    filter: invert(1);
-  width: 26px;
+  width: 1.625rem;
   opacity: .5;
 }
 
@@ -625,7 +619,7 @@ header nav ul li:hover,
 }
 
 .watch-our-vids-content {
-  width: 1220px;
+  width: 63.5416666667%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -724,7 +718,6 @@ header nav ul li:hover,
 }
 
 .work-with-us-content {
-  width: 1220px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -763,7 +756,7 @@ header nav ul li:hover,
   justify-content: center;
   align-items: center;
   height: 49px;
-  width: 140px;
+  width: 8.75rem;
   border-radius: 5px;
   background-color: #07bfc5;
   color: white;
@@ -803,7 +796,7 @@ header nav ul li:hover,
 }
 
 .work-with-us-icons img {
-  width: 110px;
+  width: 6.875rem;
 }
 
 .work-with-us-icons h3 {
@@ -830,7 +823,7 @@ header nav ul li:hover,
 }
 
 .nav-companies img {
-  width: 140px;
+  width: 8.75rem;
   opacity: .5;
 }
 
@@ -853,7 +846,7 @@ footer {
 }
 
 .ft-1-content {
-  width: 1225px;
+  width: 63.8020833333%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -873,7 +866,7 @@ footer {
 }
 
 .ft-tnw-logo {
-  width: 170px;
+  width: 10.625rem;
 }
 
 .ft-flex-1 .nav-social {
@@ -923,7 +916,7 @@ footer {
 }
 
 .ft-2-content {
-  width: 500px;
+  width: 26.0416666667%;
   height: 100px;
   margin-left: auto;
   margin-right: auto;
