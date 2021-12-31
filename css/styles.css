@@ -660,7 +660,7 @@ header nav ul li:hover,
 
 .main-video-subtext {
   height: 22%;
-  margin-top: -9px;
+  margin-top: -8px;
   padding-top: 35px;
   padding-left: 20px;
   background-color: black;
@@ -718,10 +718,126 @@ header nav ul li:hover,
 /* work with us */
 
 .work-with-us {
-  height: 600px;
+  height: 610px;
   width: 70%;
+  padding-top: 90px;
   margin: 0 auto;
-  background-color: cyan;
+  background-color: white;
+}
+
+.work-with-us-content {
+  width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-with-us-main-grid {
+  height: 350px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.work-with-us-text {
+  grid-column: 1 / 2;
+}
+
+.work-with-us-text h3 {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  color: #CC0099;
+}
+
+.work-with-us-text h2 {
+  font-size: 35px;
+  padding: 0;
+  margin: 0;
+}
+
+.work-with-us p {
+  color: #505666;
+  font-size: 19px;
+}
+
+.cyan-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 49px;
+  width: 140px;
+  border-radius: 5px;
+  background-color: #07bfc5;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cyan-btn:hover {
+  opacity: .6;
+}
+
+.work-with-us-icons {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.icons-grid-cell-1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.icons-grid-cell-2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.icons-grid-cell-3 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.icons-grid-cell-4 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.work-with-us-icons img {
+  width: 110px;
+}
+
+.work-with-us-icons h3 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.icons-grid-cell-1,
+.icons-grid-cell-2,
+.icons-grid-cell-3,
+.icons-grid-cell-4 {
+  display: flex;
+  align-items: center;
+}
+
+.nav-companies {
+  margin-top: 20px;
+}
+
+.nav-companies ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+}
+
+.nav-companies img {
+  width: 140px;
+  opacity: .5;
+}
+
+.nav-companies img:hover {
+  opacity: 1;
 }
 
 /* footer */
