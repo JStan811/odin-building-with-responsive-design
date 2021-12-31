@@ -35,3 +35,4 @@ To-do
   - update fonts
   - add scrollbar to "Watch our vids" section. (I think I'd have to change the whole section from a grid into something and a sidebar)
   - change how tabbing works (on my page a black outline appears over item)
+  - the hover effect on their work with us section companies navbar is gradual, whereas mine is istantaneous (may also be true for newsletter cta social navbar)

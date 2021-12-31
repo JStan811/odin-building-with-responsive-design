@@ -837,7 +837,7 @@ header nav ul li:hover,
 }
 
 .nav-companies img:hover {
-  opacity: 1;
+  opacity: .7;
 }
 
 /* footer */
