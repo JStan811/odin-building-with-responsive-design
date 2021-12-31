@@ -593,7 +593,6 @@ header nav ul li:hover,
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .nav-social ul {
@@ -843,9 +842,113 @@ header nav ul li:hover,
 /* footer */
 
 footer {
-  height: 500px;
+  height: 430px;
   background-color: black;
   color: white;
+}
+
+.ft-part-1 {
+  height: 283px;
+  padding-top: 60px;
+  border-bottom: 0.5px solid #5f6d6d;
+}
+
+.ft-1-content {
+  width: 1225px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.ft-flex-1 {
+  flex-basis: 280px;
+  margin-right: auto;
+}
+
+.ft-flex-1 h2 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.ft-tnw-logo {
+  width: 170px;
+}
+
+.ft-flex-1 .nav-social {
+  margin-top: 70px;
+  margin-left: -20px;
+}
+
+.ft-flex-2 {
+  flex-basis: 200px;
+  margin-left: 200px;
+}
+
+.ft-flex-3 {
+  flex-basis: 200px;
+  margin-left: auto;
+  margin-right: 100px;
+}
+
+.ft-1-content h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.ft-flex-2 ul,
+.ft-flex-3 ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.ft-flex-2 a,
+.ft-flex-3 a {
+  color: #07bfc5;
+}
+
+.ft-flex-2 a:hover,
+.ft-flex-3 a:hover {
+  text-decoration: underline;
+  text-decoration-color: #07bfc5;
+}
+
+.ft-1-content h4 {
+  font-size: 16px;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+.ft-2-content {
+  width: 500px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ft-2-content p {
+  font-size: 15px;
+  margin-bottom: 2px;
+  margin-top: 0;
+  color: #bbc4c4;
+}
+
+.ft-2-content a {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.ft-2-content a:hover {
+  color: #CC0099;
 }
 
 /* misc */
