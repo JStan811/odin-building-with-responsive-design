@@ -33,3 +33,4 @@ To-do
   - add animation on Latest Stories ALL NEWS button
   - fill in img alt texts
   - update fonts
+  - add scrollbar to "Watch our vids" section. (I think I'd have to change the whole section from a grid into something and a sidebar)
