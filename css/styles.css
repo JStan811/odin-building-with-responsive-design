@@ -105,10 +105,9 @@ header nav ul li:hover,
 .main-logo-heading {
   padding-top: 4.188rem;
   padding-bottom: 4.188rem;
-  padding-right: 2.9375rem;
+  padding-right: 1.875rem;
   padding-left: 1.875rem;
-  width: 66.010416666%;
-  min-width: 79.2125rem;
+  max-width: 79.2125rem;
   margin-top: 5.813rem;
   margin-left: auto;
   margin-right: auto;
@@ -141,13 +140,12 @@ header nav ul li:hover,
 /* grid with 5 articles */
 
 .featured-article-grid {
-  width: 84.010416666%;
-  min-width: 100.8125rem;
+  max-width: 100.8125rem;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3.125rem;
-  padding-right: 2.9375rem;
+  padding-right: 1.875rem;
   padding-left: 1.875rem;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
@@ -268,11 +266,13 @@ header nav ul li:hover,
 .popular-articles {
   padding-top: 3.125rem;
   padding-bottom: 6.25rem;
+  padding-right: 1.875rem;
+  padding-left: 1.875rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2.5rem;
+  gap: 2rem;
   background-color: #F7F8F8;
 }
 
@@ -283,8 +283,8 @@ header nav ul li:hover,
 
 .popular-articles ol {
   display: flex;
-  gap: 5rem;
-  width: 78%;
+  gap: 4rem;
+  max-width: 93.6rem;
 }
 
 .popular-articles a {
@@ -309,9 +309,11 @@ header nav ul li:hover,
 /* latest articles */
 
 .latest-articles {
-  width: 64%;
+  max-width: 76.8rem;
   padding-top: 6.25rem;
   padding-bottom: 7.5rem;
+  padding-right: 1.875rem;
+  padding-left: 1.875rem;
   margin: 0 auto;
 }
 
@@ -320,6 +322,10 @@ header nav ul li:hover,
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 3.75rem;
+}
+
+.latest-articles img {
+  width: 100%
 }
 
 .latest-articles-grid {
@@ -424,10 +430,12 @@ header nav ul li:hover,
   background-color: #F7F8F8;
   padding-top: 6.875rem;
   padding-bottom: 8.438rem;
+  padding-right: 1.875rem;
+  padding-left: 1.875rem;
 }
 
 .explore-content {
-  width: 80.2083333333%;
+  max-width: 96.25rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -508,7 +516,7 @@ header nav ul li:hover,
 }
 
 .newsletter-cta-content {
-  width: 38%;
+  width: 45.6rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -610,11 +618,13 @@ header nav ul li:hover,
   margin: 0 auto;
   padding-top: 6.25rem;
   padding-bottom: 5rem;
+  padding-right: 1.875rem;
+  padding-left: 1.875rem;
   background-color: #F7F8F8;
 }
 
 .watch-our-vids-content {
-  width: 63.5416666667%;
+  max-width: 76.25rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -704,9 +714,11 @@ header nav ul li:hover,
 /* work with us */
 
 .work-with-us {
-  width: 70%;
+  max-width: 84rem;
   padding-top: 6.25rem;
   padding-bottom: 3.438rem;
+  padding-right: 1.875rem;
+  padding-left: 1.875rem;
   margin: 0 auto;
   background-color: white;
 }
@@ -814,13 +826,14 @@ header nav ul li:hover,
 }
 
 .nav-companies ul {
+  max-width: 75rem;
   list-style-type: none;
   margin: 0;
   display: flex;
 }
 
 .nav-companies img {
-  width: 8.75rem;
+  width: 100%;
   opacity: .5;
 }
 
@@ -833,6 +846,8 @@ header nav ul li:hover,
 footer {
   background-color: black;
   color: white;
+  padding-right: 1.875rem;
+  padding-left: 1.875rem;
 }
 
 .ft-part-1 {
@@ -842,7 +857,7 @@ footer {
 }
 
 .ft-1-content {
-  width: 63.8020833333%;
+  max-width: 76.5625rem;
   margin-left: auto;
   margin-right: auto;
   display: flex;
