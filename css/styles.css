@@ -16,13 +16,13 @@ a {
 /* Header */
 
 header {
-  padding-right: 15px;
-  padding-left: 25px;
+  padding-right: 0.938rem;
+  padding-left: 1.563rem;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #F7F8F8;
-  box-shadow: 0px 22px 10px rgba(0, 0, 0, .05);
+  box-shadow: 0 1.375rem 0.625rem rgba(0, 0, 0, .05);
   position:relative;
   z-index:2;
 }
@@ -66,13 +66,10 @@ header nav ul {
 header nav ul li{
   display: flex;
   align-items: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0.938rem 1.25rem 0.938rem 1.25rem;
   font-size: 0.938rem;
   font-family: 'Ropa Sans', sans-serif;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.0938rem;
   color: #505666;
 }
 
@@ -92,14 +89,12 @@ header nav ul li:hover,
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-left: 25px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding: 0.125rem 0 0.125rem 1.563rem;
   position: relative;
   z-index: 1;
   background-color: #fd3;
   color: black;
-  box-shadow: 0px 22px 30px rgba(0, 0, 0, .07);
+  box-shadow: 0 1.375rem 1.875rem rgba(0, 0, 0, .07);
 }
 .conference-cta p {
   font-size: 0.75rem;
@@ -108,10 +103,10 @@ header nav ul li:hover,
 /* main logo heading */
 
 .main-logo-heading {
-  padding-top: 67px;
-  padding-bottom: 67px;
+  padding-top: 4.188rem;
+  padding-bottom: 4.188rem;
   width: 80%;
-  margin-top: 93px;
+  margin-top: 5.813rem;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -123,7 +118,7 @@ header nav ul li:hover,
 
 .main-logo-heading img {
   width: 14.063rem;
-  margin-right: 230px;
+  margin-right: 14.375rem;
 }
 
 .flex-half {
@@ -131,7 +126,7 @@ header nav ul li:hover,
 }
 
 .main-logo-heading h1 {
-  margin-left: 200px;
+  margin-left: 12.5rem;
   font-size: 2rem;
   color: #505666;
 }
@@ -143,11 +138,11 @@ header nav ul li:hover,
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: 250px 1fr 250px;
-  gap: 8px;
+  grid-template-rows: 15.625rem 1fr 15.625rem;
+  gap: 0.5rem;
 }
 
 .featured-article-grid article {
@@ -181,7 +176,7 @@ header nav ul li:hover,
 .grid-article-5 h3 {
   font-size: .75rem;
   margin-bottom: 0;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .grid-article-1 h2,
@@ -189,7 +184,7 @@ header nav ul li:hover,
   font-size: 2.188rem;
   font-weight: 900;
   margin-top: 0;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .grid-article-2 {
@@ -202,7 +197,7 @@ header nav ul li:hover,
 .grid-article-3 h3 {
   font-size: 0.688rem;
   margin-bottom: 0;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .grid-article-2 h2,
@@ -210,7 +205,7 @@ header nav ul li:hover,
   font-size: 1.375rem;
   font-weight: 900;
   margin-top: 0;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .grid-article-3 {
@@ -242,15 +237,15 @@ header nav ul li:hover,
 }
 
 .grid-article-4 button {
-  border-radius: 25px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  border-radius: 1.5625rem;
+  padding-top: 0.938rem;
+  padding-bottom: 0.938rem;
   width: 8.75rem;
-  margin-top: 18px;
+  margin-top: 1.125rem;
   background-color: transparent;
   font-size: 0.875rem;
   color: white;
-  border: 1px solid white;
+  border: 0.0625rem solid white;
 }
 
 .grid-article-5 {
@@ -261,13 +256,13 @@ header nav ul li:hover,
 /* popular articles today */
 
 .popular-articles {
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 3.125rem;
+  padding-bottom: 6.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 2.5rem;
   background-color: #F7F8F8;
 }
 
@@ -278,7 +273,7 @@ header nav ul li:hover,
 
 .popular-articles ol {
   display: flex;
-  gap: 80px;
+  gap: 5rem;
   width: 78%;
 }
 
@@ -305,8 +300,8 @@ header nav ul li:hover,
 
 .latest-articles {
   width: 64%;
-  padding-top: 100px;
-  padding-bottom: 120px;
+  padding-top: 6.25rem;
+  padding-bottom: 7.5rem;
   margin: 0 auto;
 }
 
@@ -314,15 +309,15 @@ header nav ul li:hover,
   font-size: 2.25rem;
   font-weight: bold;
   margin-top: 0;
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
 }
 
 .latest-articles-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  column-gap: 32px;
-  row-gap: 37px;
+  column-gap: 2rem;
+  row-gap: 2.3125rem;
 }
 
 .latest-article-1 {
@@ -375,8 +370,8 @@ header nav ul li:hover,
 
 .latest-articles-grid article h4 {
   font-size: 0.75rem;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 0.313rem;
+  margin-bottom: 0.313rem;
 }
 
 .latest-articles-grid article h3 {
@@ -395,14 +390,14 @@ header nav ul li:hover,
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   width: 8.125rem;
-  margin-top: 50px;
+  margin-top: 3.125rem;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #b30086;
-  border-radius: 50px;
+  border: 0.0625rem solid #b30086;
+  border-radius: 3.125rem;
   background-color: #CC0099;
   color: white;
   font-size: 0.875rem;
@@ -417,8 +412,8 @@ header nav ul li:hover,
 
 .explore-our-channels {
   background-color: #F7F8F8;
-  padding-top: 110px;
-  padding-bottom: 135px;
+  padding-top: 6.875rem;
+  padding-bottom: 8.438rem;
 }
 
 .explore-content {
@@ -434,9 +429,9 @@ header nav ul li:hover,
 }
 
 .explore-flexbox {
-  margin-top: 70px;
+  margin-top: 4.375rem;
   display: flex;
-  gap: 18px;
+  gap: 1.125rem;
 }
 
 .explore-flexbox a {
@@ -450,8 +445,8 @@ header nav ul li:hover,
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 70px;
-  padding: 40px 25px 5px 25px;
+  gap: 4.375rem;
+  padding: 2.5rem 1.563rem 0.313rem 1.563rem;
 }
 
 .explore-flexbox a img{
@@ -491,8 +486,8 @@ header nav ul li:hover,
 /* newsletter call to action */
 
 .newsletter-cta {
-  padding-top: 52px;
-  padding-bottom: 60px;
+  padding-top: 3.25rem;
+  padding-bottom: 3.75rem;
   background-color: black;
   background-image: url('../img/newsletter-bg.png');
   background-size: cover;
@@ -515,8 +510,8 @@ header nav ul li:hover,
 
 .newsletter-cta p {
   font-size: 1.063rem;
-  margin-top: 5px;
-  margin-bottom: 22px;
+  margin-top: 0.313rem;
+  margin-bottom: 1.375rem;
 }
 
 .newsletter-cta a {
@@ -535,15 +530,15 @@ header nav ul li:hover,
 
 .newsletter-text-field {
   width: 100%;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 45px;
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+  padding-left: 2.813rem;
   border: none;
   vertical-align: bottom;
-  border-radius: 4px 0 0 4px;
+  border-radius: 0.25rem 0 0 0.25rem;
   background-image: url('../img/email-icon.png');
   background-position: 2%;
-  background-size: 20px;
+  background-size: 1.25rem;
   background-repeat: no-repeat;
   font-size: 1.063rem;
   color: #505666;
@@ -554,8 +549,8 @@ header nav ul li:hover,
 }
 
 .newsletter-submit-btn {
-  padding-left: 14px;
-  padding-right: 16px;
+  padding-left: 0.875rem;
+  padding-right: 1rem;
   border-radius: 0;
   border: none;
   background-color: #CC0099;
@@ -563,7 +558,7 @@ header nav ul li:hover,
   font-size: 1rem;
   font-weight: bold;
   vertical-align: bottom;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 0.25rem 0.25rem 0;
   cursor:pointer;
 }
 
@@ -573,7 +568,7 @@ header nav ul li:hover,
 
 .nav-social {
   width: 18.75rem;
-  margin-top: 40px;
+  margin-top: 2.5rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -583,7 +578,7 @@ header nav ul li:hover,
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 13px;
+  gap: 0.8125rem;
   padding: 0;
   margin: 0;
 }
@@ -603,8 +598,8 @@ header nav ul li:hover,
 
 .watch-our-vids {
   margin: 0 auto;
-  padding-top: 100px;
-  padding-bottom: 80px;
+  padding-top: 6.25rem;
+  padding-bottom: 5rem;
   background-color: #F7F8F8;
 }
 
@@ -621,11 +616,11 @@ header nav ul li:hover,
 }
 
 .video-container {
-  margin-top: 70px;
+  margin-top: 4.375rem;
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 25px;
+  gap: 1.5625rem;
 }
 
 .main-video-container {
@@ -639,17 +634,17 @@ header nav ul li:hover,
 }
 
 .main-video-subtext {
-  margin-top: -8px;
-  padding-top: 35px;
-  padding-left: 20px;
-  padding-bottom: 40px;
+  margin-top: -0.5rem;
+  padding-top: 2.188rem;
+  padding-left: 1.25rem;
+  padding-bottom: 2.5rem;
   background-color: black;
   color: white;
 }
 
 .main-video-subtext h3 {
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
   font-size: 1.125rem;
 }
 
@@ -674,7 +669,7 @@ header nav ul li:hover,
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 0;
-  padding-right: 10px;
+  padding-right: 0.625rem;
 }
 
 .watch-our-vids-content h4:hover {
@@ -700,8 +695,8 @@ header nav ul li:hover,
 
 .work-with-us {
   width: 70%;
-  padding-top: 100px;
-  padding-bottom: 55px;
+  padding-top: 6.25rem;
+  padding-bottom: 3.438rem;
   margin: 0 auto;
   background-color: white;
 }
@@ -714,7 +709,7 @@ header nav ul li:hover,
 .work-with-us-main-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .work-with-us-text {
@@ -746,10 +741,10 @@ header nav ul li:hover,
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   width: 8.75rem;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   background-color: #07bfc5;
   color: white;
   font-size: 0.875rem;
@@ -793,7 +788,7 @@ header nav ul li:hover,
 
 .work-with-us-icons h3 {
   font-size: 1.125rem;
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 
 .icons-grid-cell-1,
@@ -805,7 +800,7 @@ header nav ul li:hover,
 }
 
 .nav-companies {
-  margin-top: 45px;
+  margin-top: 2.8125rem;
 }
 
 .nav-companies ul {
@@ -831,9 +826,9 @@ footer {
 }
 
 .ft-part-1 {
-  padding-top: 60px;
-  padding-bottom: 30px;
-  border-bottom: 0.5px solid #5f6d6d;
+  padding-top: 3.75rem;
+  padding-bottom: 1.875rem;
+  border-bottom: 0.0313rem solid #5f6d6d;
 }
 
 .ft-1-content {
@@ -845,13 +840,12 @@ footer {
 }
 
 .ft-flex-1 {
-  flex-basis: 280px;
   margin-right: auto;
 }
 
 .ft-flex-1 h2 {
   font-size: 1.5rem;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   margin-bottom: 0;
   padding: 0;
 }
@@ -861,19 +855,17 @@ footer {
 }
 
 .ft-flex-1 .nav-social {
-  margin-top: 70px;
-  margin-left: -20px;
+  margin-top: 4.375rem;
+  margin-left: -1.25rem;
 }
 
 .ft-flex-2 {
-  flex-basis: 200px;
-  margin-left: 200px;
+  margin-left: 6rem;
 }
 
 .ft-flex-3 {
-  flex-basis: 200px;
   margin-left: auto;
-  margin-right: 100px;
+  margin-right: 10rem;
 }
 
 .ft-1-content h3 {
@@ -885,7 +877,7 @@ footer {
 .ft-flex-3 ul {
   list-style-type: none;
   padding: 0;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   margin-bottom: 0;
 }
 
@@ -903,14 +895,14 @@ footer {
 
 .ft-1-content h4 {
   font-size: 1rem;
-  margin-top: 3px;
+  margin-top: 0.1875rem;
   margin-bottom: 0;
 }
 
 .ft-2-content {
   width: 26.0416666667%;
-  padding-top: 30px;
-  padding-bottom: 65px;
+  padding-top: 1.875rem;
+  padding-bottom: 4.063rem;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -921,7 +913,8 @@ footer {
 
 .ft-2-content p {
   font-size: 0.938rem;
-  margin-bottom: 2px;
+  margin-bottom: 0.125rem;
+  line-height: 1.5;
   margin-top: 0;
   color: #bbc4c4;
 }
