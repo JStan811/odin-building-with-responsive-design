@@ -925,7 +925,7 @@ footer {
 }
 
 .ft-2-content {
-  width: 26.0416666667%;
+  max-width: 31.25rem;
   padding-top: 1.875rem;
   padding-bottom: 4.063rem;
   margin-left: auto;
