@@ -3,7 +3,6 @@
 
 * {
   font-family: 'Rubik', sans-serif;
-  line-height: 1.5;
 }
 
 body {
@@ -17,12 +16,11 @@ a {
 /* Header */
 
 header {
-  height: 47px;
+  padding-right: 15px;
+  padding-left: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 25px;
-  padding-right: 15px;
   background-color: #F7F8F8;
   box-shadow: 0px 22px 10px rgba(0, 0, 0, .05);
   position:relative;
@@ -66,9 +64,10 @@ header nav ul {
 }
 
 header nav ul li{
-  height: 100%;
   display: flex;
   align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 0.938rem;
@@ -90,11 +89,12 @@ header nav ul li:hover,
 /* conference cta */
 
 .conference-cta {
-  height: 44px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding-left: 25px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   position: relative;
   z-index: 1;
   background-color: #fd3;
@@ -108,7 +108,8 @@ header nav ul li:hover,
 /* main logo heading */
 
 .main-logo-heading {
-  height: 230px;
+  padding-top: 67px;
+  padding-bottom: 67px;
   width: 80%;
   margin-top: 93px;
   margin-left: auto;
@@ -138,7 +139,6 @@ header nav ul li:hover,
 /* grid with 5 articles */
 
 .featured-article-grid {
-  height: 633px;
   width: 80%;
   margin-top: 0;
   margin-left: auto;
@@ -153,7 +153,7 @@ header nav ul li:hover,
 .featured-article-grid article {
   position: relative;
   display: flex;
-  height: 100%;
+  min-height: 100%;
 }
 
 .grid-article-1 {
@@ -164,12 +164,11 @@ header nav ul li:hover,
 
 .grid-article-img {
   width: 100%;
-  height: 100%;
 }
 
 .grid-article-text {
   position: absolute;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -181,7 +180,6 @@ header nav ul li:hover,
 .grid-article-1 h3,
 .grid-article-5 h3 {
   font-size: .75rem;
-  line-height: normal;
   margin-bottom: 0;
   margin-left: 20px;
 }
@@ -190,7 +188,6 @@ header nav ul li:hover,
 .grid-article-5 h2 {
   font-size: 2.188rem;
   font-weight: 900;
-  line-height: normal;
   margin-top: 0;
   margin-left: 20px;
 }
@@ -204,7 +201,6 @@ header nav ul li:hover,
 .grid-article-2 h3,
 .grid-article-3 h3 {
   font-size: 0.688rem;
-  line-height: normal;
   margin-bottom: 0;
   margin-left: 20px;
 }
@@ -213,7 +209,6 @@ header nav ul li:hover,
 .grid-article-3 h2 {
   font-size: 1.375rem;
   font-weight: 900;
-  line-height: normal;
   margin-top: 0;
   margin-left: 20px;
 }
@@ -232,7 +227,7 @@ header nav ul li:hover,
 
 .grid-article-text-ad {
   position: absolute;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -244,12 +239,12 @@ header nav ul li:hover,
 .grid-article-4 h2{
   font-size: 1.563rem;
   margin: 0;
-  line-height: normal;
 }
 
 .grid-article-4 button {
   border-radius: 25px;
-  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   width: 8.75rem;
   margin-top: 18px;
   background-color: transparent;
@@ -266,13 +261,13 @@ header nav ul li:hover,
 /* popular articles today */
 
 .popular-articles {
-  height: 335px;
-  margin-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
   background-color: #F7F8F8;
 }
 
@@ -303,14 +298,15 @@ header nav ul li:hover,
 .popular-articles ol li h3{
   font-size: 1.063rem;
   margin: 0;
-  line-height: normal;
+  line-height: 1.5;
 }
 
 /* latest articles */
 
 .latest-articles {
-  height: 875px;
   width: 64%;
+  padding-top: 100px;
+  padding-bottom: 120px;
   margin: 0 auto;
 }
 
@@ -322,7 +318,6 @@ header nav ul li:hover,
 }
 
 .latest-articles-grid {
-  height: 550px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -400,7 +395,8 @@ header nav ul li:hover,
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 45px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   width: 8.125rem;
   margin-top: 50px;
   margin-left: auto;
@@ -420,9 +416,9 @@ header nav ul li:hover,
 /* explore our channels */
 
 .explore-our-channels {
-  height: 590px;
   background-color: #F7F8F8;
   padding-top: 110px;
+  padding-bottom: 135px;
 }
 
 .explore-content {
@@ -434,12 +430,10 @@ header nav ul li:hover,
 .explore-content h2 {
   margin: 0;
   font-size: 2.063rem;
-  line-height: normal;
   font-weight: bold;
 }
 
 .explore-flexbox {
-  height: 232px;
   margin-top: 70px;
   display: flex;
   gap: 18px;
@@ -451,16 +445,13 @@ header nav ul li:hover,
 }
 
 .explore-flexbox a article {
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   gap: 70px;
-  padding-top: 20px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 40px 25px 5px 25px;
 }
 
 .explore-flexbox a img{
@@ -494,13 +485,14 @@ header nav ul li:hover,
 
 .explore-flexbox h3 {
   font-size: 1rem;
+  line-height: 1.5;
 }
 
 /* newsletter call to action */
 
 .newsletter-cta {
-  height: 355px;
-  padding-top: 50px;
+  padding-top: 52px;
+  padding-bottom: 60px;
   background-color: black;
   background-image: url('../img/newsletter-bg.png');
   background-size: cover;
@@ -542,9 +534,9 @@ header nav ul li:hover,
 }
 
 .newsletter-text-field {
-  height: 50px;
   width: 100%;
-  padding: 0;
+  padding-top: 14px;
+  padding-bottom: 14px;
   padding-left: 45px;
   border: none;
   vertical-align: bottom;
@@ -562,9 +554,8 @@ header nav ul li:hover,
 }
 
 .newsletter-submit-btn {
-  height: 50px;
-  width: 6.625rem;
-  padding: 0;
+  padding-left: 14px;
+  padding-right: 16px;
   border-radius: 0;
   border: none;
   background-color: #CC0099;
@@ -582,7 +573,6 @@ header nav ul li:hover,
 
 .nav-social {
   width: 18.75rem;
-  height: 35px;
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -612,9 +602,9 @@ header nav ul li:hover,
 /* watch what we made for you */
 
 .watch-our-vids {
-  height: 980px;
   margin: 0 auto;
   padding-top: 100px;
+  padding-bottom: 80px;
   background-color: #F7F8F8;
 }
 
@@ -627,12 +617,10 @@ header nav ul li:hover,
 .watch-our-vids h2 {
   margin: 0;
   font-size: 2.063rem;
-  line-height: normal;
   font-weight: bold;
 }
 
 .video-container {
-  height: 670px;
   margin-top: 70px;
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -647,14 +635,14 @@ header nav ul li:hover,
 
 .main-video {
   width: 100%;
-  height: 78%;
+  min-height: 78%;
 }
 
 .main-video-subtext {
-  height: 22%;
   margin-top: -8px;
   padding-top: 35px;
   padding-left: 20px;
+  padding-bottom: 40px;
   background-color: black;
   color: white;
 }
@@ -681,6 +669,7 @@ header nav ul li:hover,
 
 .watch-our-vids-content h4 {
   font-size: 1rem;
+  line-height: 1.5;
   margin: 0;
   padding-top: 0;
   padding-bottom: 0;
@@ -710,9 +699,9 @@ header nav ul li:hover,
 /* work with us */
 
 .work-with-us {
-  height: 610px;
   width: 70%;
-  padding-top: 90px;
+  padding-top: 100px;
+  padding-bottom: 55px;
   margin: 0 auto;
   background-color: white;
 }
@@ -723,10 +712,9 @@ header nav ul li:hover,
 }
 
 .work-with-us-main-grid {
-  height: 350px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  gap: 40px;
 }
 
 .work-with-us-text {
@@ -735,6 +723,7 @@ header nav ul li:hover,
 
 .work-with-us-text h3 {
   font-size: 0.938rem;
+  line-height: 1.5;
   padding: 0;
   margin: 0;
   color: #CC0099;
@@ -742,6 +731,7 @@ header nav ul li:hover,
 
 .work-with-us-text h2 {
   font-size: 2.188rem;
+  line-height: 1.5;
   padding: 0;
   margin: 0;
 }
@@ -749,13 +739,15 @@ header nav ul li:hover,
 .work-with-us p {
   color: #505666;
   font-size: 1.188rem;
+  line-height: 1.5;
 }
 
 .cyan-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 49px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   width: 8.75rem;
   border-radius: 5px;
   background-color: #07bfc5;
@@ -813,7 +805,7 @@ header nav ul li:hover,
 }
 
 .nav-companies {
-  margin-top: 20px;
+  margin-top: 45px;
 }
 
 .nav-companies ul {
@@ -834,14 +826,13 @@ header nav ul li:hover,
 /* footer */
 
 footer {
-  height: 430px;
   background-color: black;
   color: white;
 }
 
 .ft-part-1 {
-  height: 283px;
   padding-top: 60px;
+  padding-bottom: 30px;
   border-bottom: 0.5px solid #5f6d6d;
 }
 
@@ -901,6 +892,7 @@ footer {
 .ft-flex-2 a,
 .ft-flex-3 a {
   color: #07bfc5;
+  line-height: 1.5;
 }
 
 .ft-flex-2 a:hover,
@@ -917,7 +909,8 @@ footer {
 
 .ft-2-content {
   width: 26.0416666667%;
-  height: 100px;
+  padding-top: 30px;
+  padding-bottom: 65px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
