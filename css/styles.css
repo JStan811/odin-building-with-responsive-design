@@ -105,7 +105,10 @@ header nav ul li:hover,
 .main-logo-heading {
   padding-top: 4.188rem;
   padding-bottom: 4.188rem;
-  width: 80%;
+  padding-right: 2.9375rem;
+  padding-left: 1.875rem;
+  width: 66.010416666%;
+  min-width: 79.2125rem;
   margin-top: 5.813rem;
   margin-left: auto;
   margin-right: auto;
@@ -118,15 +121,19 @@ header nav ul li:hover,
 
 .main-logo-heading img {
   width: 14.063rem;
-  margin-right: 14.375rem;
 }
 
-.flex-half {
+.flex-half-1 {
   flex-basis: 50%;
+  text-align: start;
+}
+
+.flex-half-2 {
+  flex-basis: 50%;
+  text-align: end;
 }
 
 .main-logo-heading h1 {
-  margin-left: 12.5rem;
   font-size: 2rem;
   color: #505666;
 }
@@ -134,11 +141,14 @@ header nav ul li:hover,
 /* grid with 5 articles */
 
 .featured-article-grid {
-  width: 80%;
+  width: 84.010416666%;
+  min-width: 100.8125rem;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3.125rem;
+  padding-right: 2.9375rem;
+  padding-left: 1.875rem;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 15.625rem 1fr 15.625rem;
