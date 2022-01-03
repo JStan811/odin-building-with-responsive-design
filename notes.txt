@@ -37,3 +37,5 @@ To-do
   - change how tabbing works (on my page a black outline appears over item)
   - the hover effect on their work with us section companies navbar is gradual, whereas mine is istantaneous (may also be true for newsletter cta social navbar)
   - change color of TNW logo
+  - why is the embedded video the wrong height on Mac/Safari
+    - also test Safari further (and other browsers?)
