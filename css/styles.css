@@ -853,26 +853,22 @@ header nav ul li:hover,
 footer {
   background-color: black;
   color: white;
-  padding-right: 1.875rem;
-  padding-left: 1.875rem;
 }
 
 .ft-part-1 {
+  display: flex;
+  justify-content: center;
   padding-top: 3.75rem;
-  padding-bottom: 1.875rem;
+  padding-bottom: 0.5rem;
   border-bottom: 0.0313rem solid #5f6d6d;
 }
 
 .ft-1-content {
   max-width: 76.5625rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 12.5rem;
   display: flex;
   justify-content: center;
-}
-
-.ft-flex-1 {
-  margin-right: auto;
+  gap: 300px;
 }
 
 .ft-flex-1 h2 {
@@ -892,12 +888,8 @@ footer {
 }
 
 .ft-flex-2 {
-  margin-left: 6rem;
-}
-
-.ft-flex-3 {
-  margin-left: auto;
-  margin-right: 10rem;
+  display: flex;
+  gap: 9.375rem;
 }
 
 .ft-1-content h3 {
@@ -905,30 +897,24 @@ footer {
   margin: 0;
 }
 
-.ft-flex-2 ul,
-.ft-flex-3 ul {
+.ft-flex-2 ul {
   list-style-type: none;
   padding: 0;
-  margin-top: 0.625rem;
-  margin-bottom: 0;
 }
 
-.ft-flex-2 a,
-.ft-flex-3 a {
+.ft-flex-2 a {
   color: #07bfc5;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
-.ft-flex-2 a:hover,
-.ft-flex-3 a:hover {
+.ft-flex-2 a:hover{
   text-decoration: underline;
   text-decoration-color: #07bfc5;
 }
 
 .ft-1-content h4 {
   font-size: 1rem;
-  margin-top: 0.1875rem;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .ft-2-content {
