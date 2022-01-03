@@ -856,19 +856,24 @@ footer {
 }
 
 .ft-part-1 {
-  display: flex;
-  justify-content: center;
   padding-top: 3.75rem;
   padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   border-bottom: 0.0313rem solid #5f6d6d;
 }
 
 .ft-1-content {
   max-width: 76.5625rem;
-  margin-right: 12.5rem;
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   justify-content: center;
-  gap: 300px;
+}
+
+.ft-flex-1,
+.ft-flex-2 {
+  flex-basis: 50%;
 }
 
 .ft-flex-1 h2 {
@@ -887,14 +892,18 @@ footer {
   margin-left: -1.25rem;
 }
 
-.ft-flex-2 {
-  display: flex;
-  gap: 9.375rem;
-}
-
 .ft-1-content h3 {
   font-size: 1.25rem;
   margin: 0;
+}
+
+.ft-flex-2 {
+  display: flex;
+}
+
+.ft-nav-1,
+.ft-nav-2 {
+  flex-basis: 50%;
 }
 
 .ft-flex-2 ul {
