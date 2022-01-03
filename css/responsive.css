@@ -190,4 +190,18 @@
   .explore-flexbox a img{
     width: 7.8rem;
   }
+
+  /* newsletter call to action */
+  .newsletter-cta {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .newsletter-cta h2 {
+    font-size: 30px ;
+  }
+
+  .newsletter-cta-content {
+    width: 35.9375rem;
+  }
 }
