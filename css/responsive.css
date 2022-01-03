@@ -239,7 +239,7 @@
   }
 
   /* work with us */
-  
+
   .work-with-us {
     padding-right: 4.0625rem;
     padding-left: 4.0625rem;
@@ -270,5 +270,11 @@
 
   .nav-companies img {
     width: 15.625rem;
+  }
+
+  /* footer */
+
+  .ft-1-content {
+    display: block;
   }
 }
