@@ -237,4 +237,38 @@
   .side-video-container-3 {
     display: none;
   }
+
+  /* work with us */
+  
+  .work-with-us {
+    padding-right: 4.0625rem;
+    padding-left: 4.0625rem;
+    padding-bottom: 0;
+  }
+
+  .icons-grid-cell-1,
+  .icons-grid-cell-2,
+  .icons-grid-cell-3,
+  .icons-grid-cell-4 {
+    display: block;
+    text-align: center;
+  }
+
+  .cyan-btn {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .nav-companies ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-companies li {
+    flex-basis: 33.333%;
+  }
+
+  .nav-companies img {
+    width: 15.625rem;
+  }
 }
