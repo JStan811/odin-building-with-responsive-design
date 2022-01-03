@@ -274,7 +274,27 @@
 
   /* footer */
 
+  footer {
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+  }
+
   .ft-1-content {
     display: block;
+  }
+
+  .ft-part-1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .ft-flex-1 {
+    margin-left: 0.5rem;
+  }
+
+  .ft-flex-1 .nav-social {
+    margin-top: 2rem;
+    margin-left: -1.25rem;
+    margin-bottom: 1rem;
   }
 }
