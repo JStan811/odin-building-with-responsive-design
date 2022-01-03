@@ -171,4 +171,23 @@
     grid-column: 2 / 3;
     grid-row: 4 / 5;
   }
+
+  /* explore our channels */
+
+  .explore-our-channels {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+
+  .explore-flex-5 {
+    display: none;
+  }
+
+  .explore-flexbox a {
+    flex-basis: 25%;
+  }
+
+  .explore-flexbox a img{
+    width: 7.8rem;
+  }
 }
