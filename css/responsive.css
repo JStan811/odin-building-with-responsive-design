@@ -1,0 +1,62 @@
+/* Responsive Stuff */
+
+@media only screen and (max-width: 1023px) {
+  /* header */
+  header {
+    padding: 0.9375rem 0 0.9375rem 0.9375rem;
+    gap: 0.625rem;
+    background-color: white;
+  }
+
+  .burger-icon {
+    display:block;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  header .tnw-logo {
+    opacity: 0.5;
+  }
+
+  header .tnw-logo:hover {
+    opacity: 1;
+  }
+
+  header .email-icon {
+    display: none;
+  }
+
+  /* conference cta */
+
+  .conference-cta {
+    display: none;
+  }
+
+  /* main logo heading */
+
+  .main-logo-heading {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .main-logo-heading img {
+    width: 28rem;
+  }
+
+  .flex-half-1 {
+    text-align: center;
+  }
+
+  .flex-half-2 {
+    text-align: center;
+  }
+
+  .main-logo-heading h1 {
+    font-size: 1.1rem;
+  }
+}
