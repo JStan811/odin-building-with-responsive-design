@@ -39,3 +39,4 @@ To-do
   - change color of TNW logo
   - why is the embedded video the wrong height on Mac/Safari
     - also test Safari further (and other browsers?)
+  - change page title to match source and have the title change based on whether the tab is active or not

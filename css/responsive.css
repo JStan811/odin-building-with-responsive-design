@@ -298,3 +298,44 @@
     margin-bottom: 1rem;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  /* featured articles */
+
+  .featured-article-grid {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-article-2,
+  .grid-article-3,
+  .grid-article-5 {
+    display: none;
+  }
+
+  /* latest articles */
+  .latest-articles {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .latest-articles-grid {
+    display: block;
+  }
+
+  .latest-articles h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .latest-articles-grid article {
+    margin-bottom: 1.75rem;
+  }
+
+  .latest-articles img {
+    width: 10rem;
+    height: 10rem;
+  }
+}
