@@ -26,7 +26,6 @@ Project Plan
 
 To-do
   - update element types and class names. Try to use semantic html. Maybe check the source code to see how to do it
-  - where is the top yellow section getting that shadow/gradient from?
   - make GET TICKETS button in featured articles grid clickable
   - add actual links from the site
   - add zoom hover effect on featured articles
@@ -40,5 +39,4 @@ To-do
   - why is the embedded video the wrong height on Mac/Safari
     - also test Safari further (and other browsers?)
   - change page title to match source and have the title change based on whether the tab is active or not
-  - add inlaid scrollbar for video section at max resolution
   - at smallest breakpoints, add horizontal scrollbars (touch-only, ie they don't show on the screen) for featured articles and video sections
