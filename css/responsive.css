@@ -317,8 +317,10 @@
 
   /* latest articles */
   .latest-articles {
-    padding-left: 1.5rem;
+    padding-top: 4rem;
     padding-right: 1.5rem;
+    padding-bottom: 4rem;
+    padding-left: 1.5rem;
   }
 
   .latest-articles-grid {
@@ -328,14 +330,56 @@
   .latest-articles h2 {
     font-size: 1.5rem;
     text-align: center;
+    margin-bottom: 2rem;
   }
 
-  .latest-articles-grid article {
+  .latest-articles-grid article h4 {
+    margin-top: 0;
+  }
+
+  .latest-articles-grid a article {
+    display: flex;
+    gap: 1.5rem;
     margin-bottom: 1.75rem;
   }
 
   .latest-articles img {
-    width: 10rem;
-    height: 10rem;
+    width: 11rem;
+    height: 11rem;
+  }
+
+  .pink-button {
+    width: 100%;
+  }
+
+  /* popular articles today */
+  .popular-articles {
+    padding-left: 1.25rem;
+  }
+
+  /* explore our channels */
+
+  .explore-our-channels {
+    padding-top: 4rem;
+    padding-right: 1.875rem;
+    padding-bottom: 5rem;
+    padding-left: 1.875rem;
+  }
+
+  .explore-content h2 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .explore-flexbox {
+    margin-top: 2rem;
+  }
+
+  .explore-flex-1 {
+    display: none;
+  }
+
+  .explore-flexbox a {
+    flex-basis: 33.333333%;
   }
 }
